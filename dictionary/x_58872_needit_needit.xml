@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="1" type="collection">
         <element label="New field" max_length="40" name="new_field" type="integer"/>
-        <element label="New_field_2" mandatory="true" max_length="20" name="new_field_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_2" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
