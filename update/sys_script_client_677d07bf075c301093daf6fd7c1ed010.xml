@@ -14,7 +14,7 @@
 		if ( newValue == '') {
 			return;
 		}
-		
+		//If this script is not active, then all 7 values show up in the "What needed" field.  This script makes it so that depending on what "Request           //Type" is picked, different options are loaded in the "What needed" field
 		var whatneeded = g_form.getValue('u_what_needed');
 		
 		// Clear all of the choices from the What needed field choice list
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>677d07bf075c301093daf6fd7c1ed010</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Needit Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_677d07bf075c301093daf6fd7c1ed010</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 16:29:19</sys_updated_on>
+        <sys_updated_on>2021-08-03 17:34:26</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
